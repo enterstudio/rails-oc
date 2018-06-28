@@ -35,7 +35,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'bourbon'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'sass-rails', '>= 5.0.3' 
-gem 'sassy-buttons'
+gem 'sassy-buttons', '>= 0.2.6'
 gem 'neat'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
@@ -62,13 +62,13 @@ group :development, :test do
   gem 'pdf-inspector', :require => "pdf/inspector"
   gem 'rb-fsevent', :require => RUBY_PLATFORM.include?("darwin") && "rb-fsevent"
   gem 'ruby_gntp',  :require => RUBY_PLATFORM.include?("darwin") && "ruby_gntp"
-  gem 'libnotify',  :require => RUBY_PLATFORM.include?("linux")  && "libnotify"
-  gem 'rb-inotify', :require => RUBY_PLATFORM.include?("linux")  && "rb-inotify"
+  gem 'libnotify', '>= 0.9.1'
+  gem 'rb-inotify', '>= 0.9.5'
   gem 'factory_girl_rails'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
-  gem 'guard-livereload'
+  gem 'guard-livereload', '>= 2.4.0'
   gem 'yajl-ruby'
   gem 'rack-livereload'
   gem 'guard-cucumber'
