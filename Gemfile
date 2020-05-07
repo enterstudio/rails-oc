@@ -5,7 +5,7 @@ source "https://rubygems.org"
 
 gem 'rack'
 gem 'rails', '4.2'
-gem 'activeresource'
+gem 'activeresource', '>= 5.1.1'
 gem 'protected_attributes'
 gem 'nokogiri'
 gem 'pg'
