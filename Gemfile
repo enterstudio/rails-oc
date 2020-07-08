@@ -40,7 +40,7 @@ gem 'neat'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
 gem 'kaminari-bootstrap'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.4'
 gem 'haml-rails'
 
 gem 'attr_encrypted'
