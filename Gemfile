@@ -51,7 +51,7 @@ group :development, :test do
   gem 'bullet'
   gem 'chrome_logger',  :require => 'chrome_logger/railtie'
   gem 'rack-mini-profiler'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 2.1.0', :require => false
   gem 'capybara'
   gem 'database_cleaner'
   gem 'shoulda'
@@ -71,7 +71,7 @@ group :development, :test do
   gem 'guard-livereload'
   gem 'yajl-ruby'
   gem 'rack-livereload'
-  gem 'guard-cucumber'
+  gem 'guard-cucumber', '>= 1.5.4'
   gem 'timecop'
   gem 'sqlite3'
   gem 'foreman'
