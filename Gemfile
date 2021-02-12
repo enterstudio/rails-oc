@@ -4,13 +4,13 @@
 source "https://rubygems.org" 
 
 gem 'rack'
-gem 'rails', '4.2'
+gem 'rails', '6.0.3.5'
 gem 'activeresource'
 gem 'protected_attributes'
 gem 'nokogiri'
 gem 'pg'
 # gem 'squeel'
-gem 'rails_setup'
+gem 'rails_setup', '>= 0.0.3'
 gem 'devise'
 gem 'permitters', '~> 0.0.1'
 gem 'cocoon'
@@ -39,7 +39,7 @@ gem 'sassy-buttons'
 gem 'neat'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
-gem 'kaminari-bootstrap'
+gem 'kaminari-bootstrap', '>= 3.0.1'
 gem 'jquery-rails'
 gem 'haml-rails'
 
@@ -51,7 +51,7 @@ group :development, :test do
   gem 'bullet'
   gem 'chrome_logger',  :require => 'chrome_logger/railtie'
   gem 'rack-mini-profiler'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.4.3', :require => false
   gem 'capybara'
   gem 'database_cleaner'
   gem 'shoulda'
