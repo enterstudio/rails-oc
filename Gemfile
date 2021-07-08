@@ -55,7 +55,7 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'shoulda'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'rspec-rails'
   gem 'faker'
   gem 'pry-rails'
