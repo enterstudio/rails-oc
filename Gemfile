@@ -4,10 +4,10 @@
 source "https://rubygems.org" 
 
 gem 'rack'
-gem 'rails', '4.2'
+gem 'rails', '4.2.0'
 gem 'activeresource'
 gem 'protected_attributes'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.6'
 gem 'pg'
 # gem 'squeel'
 gem 'rails_setup'
@@ -31,10 +31,10 @@ gem "prawn-labels"
 gem 'uglifier', '>= 1.3.0'
 gem 'abstract', '~> 1.0.0'
 gem "Ascii85", "~> 1.0.2"
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.1'
 gem 'bourbon'
 gem 'bootstrap-sass', '~> 3.3.4'
-gem 'sass-rails', '>= 5.0.3' 
+gem 'sass-rails', '>= 5.0.3'
 gem 'sassy-buttons'
 gem 'neat'
 gem 'font-awesome-rails'
