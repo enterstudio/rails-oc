@@ -4,7 +4,7 @@
 source "https://rubygems.org" 
 
 gem 'rack'
-gem 'rails', '4.2'
+gem 'rails', '5.2.8.1'
 gem 'activeresource'
 gem 'protected_attributes'
 gem 'nokogiri'
@@ -51,7 +51,7 @@ group :development, :test do
   gem 'bullet'
   gem 'chrome_logger',  :require => 'chrome_logger/railtie'
   gem 'rack-mini-profiler'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.4.3', :require => false
   gem 'capybara'
   gem 'database_cleaner'
   gem 'shoulda'
