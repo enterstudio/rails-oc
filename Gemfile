@@ -4,7 +4,7 @@
 source "https://rubygems.org" 
 
 gem 'rack'
-gem 'rails', '4.2'
+gem 'rails', '5.2.8.1'
 gem 'activeresource'
 gem 'protected_attributes'
 gem 'nokogiri'
@@ -20,7 +20,7 @@ gem 'kaminari'
 gem 'rails_admin', :git => 'https://github.com/sferik/rails_admin.git'
 gem 'american_date'
 gem 'cancan'
-gem 'paper_trail', '~> 3.0.6'
+gem 'paper_trail', '~> 4.0.0'
 gem 'prawn-print', :git => 'git://github.com/barsoom/prawn-print.git'
 gem 'backup-task'
 gem 'unicorn'
@@ -51,7 +51,7 @@ group :development, :test do
   gem 'bullet'
   gem 'chrome_logger',  :require => 'chrome_logger/railtie'
   gem 'rack-mini-profiler'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.4.3', :require => false
   gem 'capybara'
   gem 'database_cleaner'
   gem 'shoulda'
