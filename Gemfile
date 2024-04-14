@@ -67,7 +67,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.8.0'
   gem 'guard-livereload'
   gem 'yajl-ruby'
   gem 'rack-livereload'
