@@ -56,7 +56,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'shoulda'
   gem 'launchy'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'faker'
   gem 'pry-rails'
   gem 'pdf-inspector', :require => "pdf/inspector"
